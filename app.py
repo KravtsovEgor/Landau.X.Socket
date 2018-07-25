@@ -8,7 +8,7 @@ socketio = SocketIO(app)
 
 @app.route('/')
 def index():
-    return 'text from socketio'
+    return 'changed in git text from socketio'
 
 @socketio.on('connect')
 def connect():
